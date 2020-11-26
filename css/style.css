@@ -376,6 +376,19 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 .sidebarfont{
 	z-index: 9999;
 }
+
+.aqua:hover {
+    filter: invert(88%) sepia(100%) saturate(2929%) hue-rotate(104deg) brightness(99%) contrast(104%);
+}
+
+.dev{
+	margin-left: 100px;
+}
+
+.comment{
+    position: relative; top: -920px;
+    margin-left: 500px;
+}
 /*タイトル
 ------------------------------------------------------------*/
 .box {
