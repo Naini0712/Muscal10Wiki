@@ -123,7 +123,46 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 .getfruit{
 	position: relative; left: 20%;
 }
+/*rct*/
+.rct{
+	margin-left: 500px;
+}
 
+.rct1{
+	width: 1300px;
+	display: -webkit-flex;
+	display: flex;
+	margin-left: 100px;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+.rct2{
+	text-align: center;
+}
+
+.margin{
+	margin-bottom: 20px;
+}
+.btn-circle-fishy {
+  display: inline-block;
+  text-decoration: none;
+  color: #FFF;
+  width: 480px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 5%;
+  text-align: center;
+  overflow: hidden;
+  background-image: linear-gradient(45deg, #709dff 0%, #91fdb7 100%);
+  transition: .4s;
+}
+
+.btn-circle-fishy:hover {
+  -webkit-transform: translateY(2px);
+  transform: translateY(2px);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+  border-bottom: none;
+}
 /*記録*/
 .btn-square {
   display: inline-block;
