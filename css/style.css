@@ -34,7 +34,8 @@ a:hover, .active{
 a:active, a:focus,input:active, input:focus{outline:0;}
 /*Others*/
 .economy{
-	position: relative; left: 25%;
+    margin-left: 25%;
+    font-size: 1vw;
 }
 
 .boxbelow {
@@ -409,7 +410,17 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 .leftspec{
-	position: relative; left: 34.5%;
+}
+
+.inline{
+	width: 70%;
+	margin: 0 auto;
+}
+
+.inline1{
+	width: 70%;
+	margin-left: 0px;
+	text-align: center;
 }
 
 .sidebarfont{
@@ -759,30 +770,67 @@ table tr td{
 	text-decoration: none;
 	color: #000000;
 }
-/*タイトル
-------------------------------------------------------------*/
-.box {
-  margin       : auto;
-  width        : 600px;
-  height       : 350px;
-  background   : rgba(255, 255, 255, 0.60);
-  position:	absolute; top: 130px; left: 22.7%;
+
+.zero{
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+	padding: 0px auto;
 }
 
-.title1 {
+.zero tr td{
+	vertical-align: middle;
+}
+
+.zero tr th{
 	text-align: center;
-	position: absolute; top: 154px; left: 34%;
+}
+
+/*タイトル
+------------------------------------------------------------*/
+.vw1{
+	font-size: 3vw;
+}
+
+.mainImg{
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/mainImg.png");
+	padding-top: 12%;
+}
+
+.main{
+    height: 27vw;
+}
+
+.box {
+  text-align: center;
+  margin       : 0 auto;
+  padding-top: 20px;
+  width        : 35%;
+  background   : rgba(255, 255, 255, 0.60);
+ }
+
+.title1 {
+	font-size: 1vw;
+	margin: 0 auto;
 	font-family: "Alegreya Sans SC",sans-serif;
 }
 
 .title2 {
-	text-align: center;
-	position: absolute; top: 160px; left: 24.3%;
+	margin: 0 auto;
 	font-family: "Alegreya Sans SC",sans-serif;
+	padding-bottom: 4%;
+}
+
+.title2a, .title2b{
+	width: 100%;
+	margin: 0 auto;
+	font-size: 2vw;
 }
 
 .border {
-position: absolute; top: 370px; left: 33.5%;
+  font-size: 1.5vw;
   display: inline-block;
   padding: 0.3em 1em;
   text-decoration: none;
@@ -790,6 +838,7 @@ position: absolute; top: 370px; left: 33.5%;
   border: solid 2px #000000;
   border-radius: 3px;
   transition: .4s;
+  margin-bottom: 3%;
 }
 
 .border:hover {
@@ -1257,3 +1306,32 @@ section h2 span {
 		margin: 55px auto;
 	}
 }
+
+.memories{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.memories ul li{
+	border: solid;
+}
+
+.zero tr td p{
+	display: block;
+}
+
+.memories ul li{
+	display: none;
+}
+
+.space{
+	height: 200px;
+}
+
+*{
+	font-size: 0.8vw;
+}
+
+ .vw2{
+ 	font-size: 3vw;
+ }
