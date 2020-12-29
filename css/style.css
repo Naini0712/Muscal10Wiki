@@ -959,6 +959,7 @@ section h2 span {
   -webkit-transform: rotateZ(20deg);
   transform: rotateZ(20deg);
   text-decoration: none;
+  cursor: pointer;
 }
 
 #sec02{
@@ -1335,3 +1336,7 @@ section h2 span {
  .vw2{
  	font-size: 3vw;
  }
+
+.pointer{
+	cursor: pointer;
+}

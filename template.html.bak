@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="MOD×経済のサーバー！">
 	<meta name="viewport" content="width=device-width">
-	<title>開発陣一覧</title>
+	<title>参加方法</title>
 	<link rel="stylesheet" media="all" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script src="js/script.js"></script>
@@ -27,6 +27,7 @@
 	<meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 </head>
+
 <body id="top">
 	<div id="wrapper">
 		<div id="sidebar">
@@ -37,7 +38,7 @@
 					<div class="panel">
 						<ul>
 							<li><a href="index.html" class="rotateY">トップ</a></li>
-							<li><p class="rotateY mods"><label class="pointer"  for="check1">導入MOD</label class="pointer" ></p></li>
+							<li><p class="rotateY mods"><label for="check1">導入MOD</label></p></li>
 							<input type="checkbox" id="check1" class="check1">
 						    <li class="type">
 						    <ul>
@@ -52,7 +53,7 @@
 							<li><a href="join.html" class="rotateY">参加方法</a></li>
 							<li><a href="rule.html" class="rotateY">ルール</a></li>
 							<li><a href="donate.html" class="rotateY">寄付</a></li>
-							<li><p class="rotateY info1"><label class="pointer"  for="check17">情報</label class="pointer" ></p></li>
+							<li><p class="rotateY info1"><label for="check17">情報</label></p></li>
 							<input type="checkbox" id="check17" class="check17">
                             <li class="info">
 						    <ul>
@@ -76,67 +77,11 @@
 			</div>
 		</div>
 		<div id="content">
-			<p id="join"><img src="images/dev.png" alt=""></p>
-		    <header class="center"><b><p class="vw2">開発陣一覧</p></b></header>
-		<div class="devhead">
-			<div><a href="rkcyk706.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/rkcyk706/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="rkcyk706.html">rkcyk706</font></b></a></li>
-				    <li>Server Owner</li>
-				</ul>
-			</div>
-			<div><a href="amagami222.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/amagami222/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="amagami222.html">amagami222</font></b></a></li>
-				    <li>Game Designer</li>
-				</ul>
-			</div>
-			<div><a href="artlab.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/ARTLab/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="artlab.html">ARTLab</font></b></a></li>
-				    <li>Builder</li>
-				</ul>
-			</div>
-			<div><a href="enoshun.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/enoshun/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="enoshun.html">enoshun</font></b></a></li>
-				    <li>Game Designer</li>
-				</ul>
-			</div>
-			<div><a href="kamesuta.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/Kamesuta/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="kamesuta.html">Kamesuta</font></b></a></li>
-				    <li>Developer</li>
-				</ul>
-			</div>
-			<div><a href="koishinium.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/koishinium/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="koishinium.html">Koishinium</font></b></a></li>
-				    <li>Game Designer</li>
-				</ul>
-			</div>
-			<div><a href="error.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/MageGirlDespairE/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="error.html">MageGirlDespairE</font></b></a></li>
-					<li>Game Designer</li>
-				</ul>
-            </div>
-			<div><a href="tomotomo.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/Tomotomo_/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="tomotomo.html">Tomotomo_</font></b></a></li>
-				    <li>Game Designer/<br>Web Writer</li>
-				</ul class="devbottom1">
-			</div>
-			<div><a href="koara.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/Xx_Koara_xX/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="koara.html">Xx_Koara_xX</font></b></a></li>
-				    <li>Builder</li>
-				</ul>
-			</div>
-			<div><img class="devbottom" src="images/toumei.png"></div>
-			<div><img class="devbottom" src="images/toumei.png"></div>
-			<div><img class="devbottom" src="images/toumei.png"></div>
+		<p id="join"><img src="images/.png" alt=""></p>
+        <header class="center"><b><p class="vw2">ルール</p></b></header>
+        </div>
 	</div>
+</font>
 <div class="boxbelow">
 	<p class="copyright">© 2020 Muscari Server All Rights Reserved.</p>
 </div>

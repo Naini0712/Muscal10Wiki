@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="MOD×経済のサーバー！">
 	<meta name="viewport" content="width=device-width">
-	<title>開発陣一覧</title>
+	<title>ルール</title>
 	<link rel="stylesheet" media="all" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script src="js/script.js"></script>
@@ -27,6 +27,7 @@
 	<meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 </head>
+
 <body id="top">
 	<div id="wrapper">
 		<div id="sidebar">
@@ -35,9 +36,9 @@
 				<nav id="mainnav">
 					<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
 					<div class="panel">
-						<ul>
+						<ul class="sidebarfont">
 							<li><a href="index.html" class="rotateY">トップ</a></li>
-							<li><p class="rotateY mods"><label class="pointer"  for="check1">導入MOD</label class="pointer" ></p></li>
+							<li><p class="rotateY mods"><label for="check1">導入MOD</label></p></li>
 							<input type="checkbox" id="check1" class="check1">
 						    <li class="type">
 						    <ul>
@@ -52,7 +53,7 @@
 							<li><a href="join.html" class="rotateY">参加方法</a></li>
 							<li><a href="rule.html" class="rotateY">ルール</a></li>
 							<li><a href="donate.html" class="rotateY">寄付</a></li>
-							<li><p class="rotateY info1"><label class="pointer"  for="check17">情報</label class="pointer" ></p></li>
+							<li><p class="rotateY info1"><label for="check17">情報</label></p></li>
 							<input type="checkbox" id="check17" class="check17">
                             <li class="info">
 						    <ul>
@@ -76,67 +77,42 @@
 			</div>
 		</div>
 		<div id="content">
-			<p id="join"><img src="images/dev.png" alt=""></p>
-		    <header class="center"><b><p class="vw2">開発陣一覧</p></b></header>
-		<div class="devhead">
-			<div><a href="rkcyk706.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/rkcyk706/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="rkcyk706.html">rkcyk706</font></b></a></li>
-				    <li>Server Owner</li>
-				</ul>
-			</div>
-			<div><a href="amagami222.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/amagami222/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="amagami222.html">amagami222</font></b></a></li>
-				    <li>Game Designer</li>
-				</ul>
-			</div>
-			<div><a href="artlab.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/ARTLab/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="artlab.html">ARTLab</font></b></a></li>
-				    <li>Builder</li>
-				</ul>
-			</div>
-			<div><a href="enoshun.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/enoshun/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="enoshun.html">enoshun</font></b></a></li>
-				    <li>Game Designer</li>
-				</ul>
-			</div>
-			<div><a href="kamesuta.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/Kamesuta/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="kamesuta.html">Kamesuta</font></b></a></li>
-				    <li>Developer</li>
-				</ul>
-			</div>
-			<div><a href="koishinium.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/koishinium/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="koishinium.html">Koishinium</font></b></a></li>
-				    <li>Game Designer</li>
-				</ul>
-			</div>
-			<div><a href="error.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/MageGirlDespairE/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="error.html">MageGirlDespairE</font></b></a></li>
-					<li>Game Designer</li>
-				</ul>
-            </div>
-			<div><a href="tomotomo.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/Tomotomo_/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="tomotomo.html">Tomotomo_</font></b></a></li>
-				    <li>Game Designer/<br>Web Writer</li>
-				</ul class="devbottom1">
-			</div>
-			<div><a href="koara.html"><img class="devbottom" src="https://cravatar.eu/helmavatar/Xx_Koara_xX/150.png"></a>
-				<ul class="devbottom1">
-					<li><b><font size="4"><a class="color" href="koara.html">Xx_Koara_xX</font></b></a></li>
-				    <li>Builder</li>
-				</ul>
-			</div>
-			<div><img class="devbottom" src="images/toumei.png"></div>
-			<div><img class="devbottom" src="images/toumei.png"></div>
-			<div><img class="devbottom" src="images/toumei.png"></div>
+		<p id="join"><img src="images/rule.png" alt=""></p>
+        <header class="center"><b><p class="vw2">ルール</p></b></header>
+        <p class="left"><font size="6">1.推奨事項</font></p>
+        <ul class="left">
+        	<li>・初参加時＆参加/退出時の<b>挨拶</b></li>
+        	<li>・バグを発見した際のDiscordの<b>意見・質問・不具合</b>チャンネルへの報告</li>
+        </ul>
+        <br>
+        <p class="left"><font size="6">2.より快適に過ごすために</font></p>
+        <ul class="left">
+        	<li>・<b>故意に</b>サーバーに負荷をかける行為の禁止</li>
+        	<li>・チャット等での<b>非道徳的な発言、誹謗中傷</b>の禁止</li>
+        	<li>・<b>卑猥・差別要素</b>を含むスキンの使用、建築の禁止</li>
+        	<li>・<b>チャットスパム(連続投稿)</b>の禁止</li>
+        	<li>・他人の所有物の<b>窃盗・破壊</b>の禁止</li>
+        	<li>・他者を騙してアイテムやお金を奪い取る<b>詐欺行為</b>の禁止</li>
+        </ul>
+        <br>
+        <p class="left"><font size="6">3.サーバーの維持</font></p>
+        <ul class="left">
+        	<li>・アイテムの<b>価格表以下の価格での取引、譲渡</b>の禁止</li>
+        	<li>・<b>複数人</b>でのアイテムの優遇の禁止(特定の人物に対して大幅な値下げまたは譲渡する等)
+        	<li>・<b>故意による</b>バグ、不具合の利用の禁止</li>
+        	<li>・<b>連打・マクロ系ツール、mod</b>の使用禁止</li>
+        	<li>・MuscariServerModpack及びFruitLauncherで推奨されているもの<b>以外の</b>MODの導入の禁止<font size="2">※1</font></li>
+        	<li>・<b>複数アカウント</b>の使用禁止</li>
+        	<font size="2">※1<font size="3">Discordで運営にかけあうことで許可が降りる場合もあります</font></font>
+        </ul>
+        <br>
+        <p class="left"><font size="6">4.補填について</font></p>
+        <ul class="left">
+        	<li>・プレイヤーの過失、窃盗・破壊による補填は一切行いません</li>
+        	<li>・Modのバグ等によるアイテムの紛失があった場合は補填を行います</li>
+        </ul>
 	</div>
+	</font>
 <div class="boxbelow">
 	<p class="copyright">© 2020 Muscari Server All Rights Reserved.</p>
 </div>

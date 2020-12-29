@@ -38,7 +38,7 @@
 					<div class="panel">
 						<ul>
 							<li><a href="index.html" class="rotateY">トップ</a></li>
-							<li><p class="rotateY mods"><label class="pointer"  for="check1">導入MOD</label class="pointer" ></p></li>
+							<li><p class="rotateY mods"><label for="check1">導入MOD</label></p></li>
 							<input type="checkbox" id="check1" class="check1">
 						    <li class="type">
 						    <ul>
@@ -53,7 +53,7 @@
 							<li><a href="join.html" class="rotateY">参加方法</a></li>
 							<li><a href="rule.html" class="rotateY">ルール</a></li>
 							<li><a href="donate.html" class="rotateY">寄付</a></li>
-							<li><p class="rotateY info1"><label class="pointer"  for="check17">情報</label class="pointer" ></p></li>
+							<li><p class="rotateY info1"><label for="check17">情報</label></p></li>
 							<input type="checkbox" id="check17" class="check17">
                             <li class="info">
 						    <ul>
@@ -100,7 +100,7 @@
         </p></li>
         </ul>
         <p class="recipe">・Crimson Revelations</p>
-        <p class="introtitle"><label class="pointer"  for="checkmod7"><span><img src="images/plus.png" width=18></span><span>追加アイテム・ブロック一覧</span></label class="pointer" ></p>
+        <p class="introtitle"><label for="checkmod7"><span><img src="images/plus.png" width=18></span><span>追加アイテム・ブロック一覧</span></label></p>
         <input type="checkbox" id="checkmod7" class="checkmod7">
         <table border=1 class="recipe cmod7">
         	<tr class="tr">
@@ -145,7 +145,7 @@
         	</tr>
         </table>
         <p class="recipe">・Thaumic Augmentation</p>
-        <p class="introtitle"><label class="pointer"  for="checkmod8"><span><img src="images/plus.png" width=18></span><span>追加アイテム・ブロック一・Mob・ディメンション覧</span></label class="pointer" ></p>
+        <p class="introtitle"><label for="checkmod8"><span><img src="images/plus.png" width=18></span><span>追加アイテム・ブロック一・Mob・ディメンション覧</span></label></p>
         <input type="checkbox" id="checkmod8" class="checkmod8">
         <div class="cmod8">
         	<p>・中間素材</p>

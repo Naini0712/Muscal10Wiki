@@ -38,7 +38,7 @@
 					<div class="panel">
 						<ul>
 							<li><a href="index.html" class="rotateY">トップ</a></li>
-							<li><p class="rotateY mods"><label class="pointer"  for="check1">導入MOD</label class="pointer" ></p></li>
+							<li><p class="rotateY mods"><label for="check1">導入MOD</label></p></li>
 							<input type="checkbox" id="check1" class="check1">
 						    <li class="type">
 						    <ul>
@@ -52,7 +52,7 @@
 							<li><a href="join.html" class="rotateY">参加方法</a></li>
 							<li><a href="rule.html" class="rotateY">ルール</a></li>
 							<li><a href="donate.html" class="rotateY">寄付</a></li>
-							<li><p class="rotateY info1"><label class="pointer"  for="check17">情報</label class="pointer" ></p></li>
+							<li><p class="rotateY info1"><label for="check17">情報</label></p></li>
 							<input type="checkbox" id="check17" class="check17">
                             <li class="info">
 						    <ul>
@@ -101,7 +101,7 @@
         	<li><p class="bluebox">解説サイト</p><p class="graybox">サイト内解説　　　　　　　　　　　　　　　　　<br>
         </p></li>
         </ul>
-        <p class="introtitle"><label class="pointer"  for="checkmod1"><span><img src="images/plus.png" width=18></span><span>追加Mob一覧</span></label class="pointer" ></p>
+        <p class="introtitle"><label for="checkmod1"><span><img src="images/plus.png" width=18></span><span>追加Mob一覧</span></label></p>
         <input type="checkbox" id="checkmod1" class="checkmod1">
         <div class="modint1">
         <ul class="modint">
@@ -248,7 +248,7 @@
             </div>
         </ul>
         </div>
-        <p class="introtitle"><label class="pointer"  for="checkmod2"><span><img src="images/plus.png" width=18></span><span>追加ブロック・アイテム一覧</span></label class="pointer" ></p>
+        <p class="introtitle"><label for="checkmod2"><span><img src="images/plus.png" width=18></span><span>追加ブロック・アイテム一覧</span></label></p>
         <input type="checkbox" id="checkmod2" class="checkmod2">
         <div class="modint2">
         	<p>ブロック</p>

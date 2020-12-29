@@ -38,7 +38,7 @@
 					<div class="panel">
 						<ul>
 							<li><a href="index.html" class="rotateY">トップ</a></li>
-							<li><p class="rotateY mods"><label class="pointer"  for="check1">導入MOD</label class="pointer" ></p></li>
+							<li><p class="rotateY mods"><label for="check1">導入MOD</label></p></li>
 							<input type="checkbox" id="check1" class="check1">
 						    <li class="type">
 						    <ul>
@@ -53,7 +53,7 @@
 							<li><a href="join.html" class="rotateY">参加方法</a></li>
 							<li><a href="rule.html" class="rotateY">ルール</a></li>
 							<li><a href="donate.html" class="rotateY">寄付</a></li>
-							<li><p class="rotateY info1"><label class="pointer"  for="check17">情報</label class="pointer" ></p></li>
+							<li><p class="rotateY info1"><label for="check17">情報</label></p></li>
 							<input type="checkbox" id="check17" class="check17">
                             <li class="info">
 						    <ul>
@@ -112,7 +112,7 @@
         </p></li>
         </ul>
         <p class="recipe">・Advanced Solar Panels</p>
-        <p class="introtitle"><label class="pointer"  for="checkmod5"><span><img src="images/plus.png" width=18></span><span>追加アイテム・ブロック一覧</span></label class="pointer" ></p>
+        <p class="introtitle"><label for="checkmod5"><span><img src="images/plus.png" width=18></span><span>追加アイテム・ブロック一覧</span></label></p>
         <input type="checkbox" id="checkmod5" class="checkmod5">
         <table border=1 class="recipe cmod5">
         	<tr class="tr">
@@ -237,7 +237,7 @@
         	</tr>
         </table>
         <p class="recipe">・Energy Control</p>
-        <p class="introtitle"><label class="pointer"  for="checkmod6"><span><img src="images/plus.png" width=18></span><span>追加アイテム・ブロック一覧</span></label class="pointer" ></p>
+        <p class="introtitle"><label for="checkmod6"><span><img src="images/plus.png" width=18></span><span>追加アイテム・ブロック一覧</span></label></p>
         <input type="checkbox" id="checkmod6" class="checkmod6">
         <table border=1 class="recipe cmod6">
         	<tr class="tr">
