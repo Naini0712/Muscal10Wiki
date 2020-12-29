@@ -130,10 +130,10 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 .rct1{
-	width: 1300px;
 	display: -webkit-flex;
 	display: flex;
-	margin-left: 100px;
+	padding-left: 100px;
+	padding-right: 100px;
 	flex-wrap:wrap;
 	justify-content: space-between;
 }
@@ -148,9 +148,9 @@ a:active, a:focus,input:active, input:focus{outline:0;}
   display: inline-block;
   text-decoration: none;
   color: #FFF;
-  width: 480px;
-  height: 120px;
-  line-height: 120px;
+  width: 30vw;
+  height: 7vw;
+  line-height: 7vw;
   border-radius: 5%;
   text-align: center;
   overflow: hidden;
@@ -931,6 +931,7 @@ section h2 span {
 
 .center{
 	text-align: center;
+	margin: 0 auto;
 }
 
 .btn-gradient-radius {
@@ -1339,4 +1340,8 @@ section h2 span {
 
 .pointer{
 	cursor: pointer;
+}
+
+.rct1 div img{
+	width: 8vw;
 }
