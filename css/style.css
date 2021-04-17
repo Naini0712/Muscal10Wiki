@@ -373,17 +373,14 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 /*dev*/
 .devhead{
-	position: relative; left: 26%;
+	position: relative; left: 15%;
 	width: 48%;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-justify-content: space-between;
-    justify-content: space-around;
-    flex-wrap : wrap;
 }
 
 .devbottom{
 	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 60%;
 }
 
 .devbottom:hover {
@@ -393,9 +390,9 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 	transition: 2s;
 }
 
-.devbottom1{
-	margin-bottom: 35px;
+.devbottom1 li{
 	text-align: center;
+	margin: 0 auto;
 }
 
 .color{
@@ -407,6 +404,27 @@ a:active, a:focus,input:active, input:focus{outline:0;}
     color: #ffbf00;
     text-decoration: none;
     transform: .5s;
+}
+
+.devi{
+	margin-left:13%;
+	border-collapse: separate;
+	border-spacing: 0px 8px;
+}
+
+.devi tr td{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.devi tr td ul li{
+	text-align: center;
+}
+
+.comment1{
+	margin-left:2vw;
+	font-size: 2vw;
+	color: #757575;
 }
 
 .leftspec{
