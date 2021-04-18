@@ -397,7 +397,8 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 
 .color{
 	text-decoration: none;
-	color: #000000;
+	color: #3b3b3b;
+	margin-left: 5vw;
 }
 
 .color:hover{
@@ -423,8 +424,14 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 
 .comment1{
 	margin-left:2vw;
-	font-size: 2vw;
-	color: #757575;
+}
+
+.comment1 li{
+	font-size: 1vw;
+}
+
+.comment1 li b{
+	font-size: 2.5vw;
 }
 
 .leftspec{
