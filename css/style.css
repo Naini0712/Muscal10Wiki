@@ -33,6 +33,15 @@ a:hover, .active{
 
 a:active, a:focus,input:active, input:focus{outline:0;}
 /*Others*/
+.mainImg{
+	width: 100%;
+	height: 100%;
+	background-image: url("../images/mainImg.png");
+	padding-top: 12%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
 .economy{
     margin-left: 25%;
     font-size: 1vw;
@@ -44,7 +53,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
   height       : 150px;
   background-color: #404040;
   position:	relative; top: 20px;
-  z-index: 9998;
+  z-index: 9997;
 }
 
 .mods{
@@ -81,6 +90,8 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 	display: -webkit-flex;
 	display: flex;
 	position: relative; top: 25px; left: 25%;
+	border: 1px solid;
+	margin-right:50%;
 }
 
 .discord{
@@ -93,7 +104,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
 }
 
 .left{
-	position: relative; left: 20%;
+	margin-left: 20%;
 }
 
 .left1{
@@ -811,6 +822,23 @@ table tr td{
 	text-align: center;
 }
 
+.ruleborder{
+	border: 1px solid;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding:1%;
+}
+
+.economy{
+	border: 1px solid;
+	margin-right: 25%;
+}
+
+.border2{
+	margin-left: 25%
+	border: 1px solid;
+	margin-right: 25%;
+}
 /*タイトル
 ------------------------------------------------------------*/
 .vw1{
@@ -820,8 +848,8 @@ table tr td{
 .mainImg{
 	width: 100%;
 	height: 100%;
-	background-image: url("../images/mainImg.png");
 	padding-top: 12%;
+
 }
 
 .main{
@@ -837,7 +865,7 @@ table tr td{
  }
 
 .title1 {
-	font-size: 1vw;
+	font-size: 100%;
 	margin: 0 auto;
 	font-family: "Alegreya Sans SC",sans-serif;
 }
@@ -851,7 +879,7 @@ table tr td{
 .title2a, .title2b{
 	width: 100%;
 	margin: 0 auto;
-	font-size: 2vw;
+	font-size: 300%;
 }
 
 .border {
@@ -873,6 +901,12 @@ table tr td{
   -webkit-transform: rotateX(360deg);
   transform: rotateX(360deg);
 }
+
+.jump{
+	border: 1px solid;
+	display:inline-block;
+}
+
 /* ヘッダー
 ------------------------------------------------------------*/
 #mainnav a{
@@ -976,14 +1010,21 @@ section h2 span {
 }
 /* SEC02 Gallery
 ------------------------------------------------------------*/
-.rotateY{
+.modslist{
+	display:none;
+}
+
+.infotab{
+	display:none;
+}
+
+.rotateY li{
 	text-decoration: none;
 	display: inline-block;
 }
 
-.rotateY:hover {
-  -webkit-transform: rotateZ(20deg);
-  transform: rotateZ(20deg);
+.rotateY li:hover {
+  color:#ffc800;
   text-decoration: none;
   cursor: pointer;
 }
@@ -1369,4 +1410,73 @@ section h2 span {
 
 .rct1 div img{
 	width: 8vw;
+}
+
+.topimg{
+	width: 900%;
+}
+
+.subImg{
+	display: none;
+}
+@media screen and (max-width:480px) {
+	.topimg{
+		padding-top:19%;
+	}
+
+	.box{
+		width: 50%;
+		padding-top: 0px;
+		padding-bottom: 100px;
+	}
+
+	.subImg{
+	   display: inline-block;
+	   text-align: center;
+    }
+
+    .subImga{
+    	font-size: 5vw;
+    }
+
+	.center1{
+		padding-top: 5%;
+	}
+
+	.mainImg{
+		display:none;
+		padding-top:20%;
+		width: 100%;
+		height: 200%;
+		padding-top: 100px;
+		margin-bottom: 100px;
+	}
+
+	.contenttop{
+	}
+
+
+
+	.topbelow{
+	}
+
+	#mainnav{
+		 z-index: 9999;
+	}
+
+    .join1{
+    	width: 100%;
+    }
+
+    .join2{
+    	width: 140%;
+    }
+
+    .boxbelow1{
+    	width: 140%;
+    }
+
+	body{
+		min-width: 1024px;
+	}
 }

@@ -239,3 +239,23 @@ $(function() {
   	$('.cc1222').css('display', '');
   });
 });
+
+$(function() {
+  $('.modslist1').hover(function() {
+    $('.modslist').css('display', 'block');
+  }, function() {
+    setTimeout(function(){
+    $('.modslist').css('display', '');
+    },2000);
+  });
+});
+
+$(function() {
+  $('.infotab1').hover(function() {
+    $('.infotab').css('display', 'block');
+  }, function() {
+    setTimeout(function(){
+    $('.infotab').css('display', '');
+    },2000);
+  });
+});
