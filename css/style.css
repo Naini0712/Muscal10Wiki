@@ -53,7 +53,7 @@ a:active, a:focus,input:active, input:focus{outline:0;}
   height       : 150px;
   background-color: #404040;
   position:	relative; top: 20px;
-  z-index: 9997;
+  z-index: -1;
 }
 
 .mods{
@@ -1018,17 +1018,6 @@ section h2 span {
 	display:none;
 }
 
-.rotateY li{
-	text-decoration: none;
-	display: inline-block;
-}
-
-.rotateY li:hover {
-  color:#ffc800;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 #sec02{
 	padding: 0 !important;
 }
@@ -1137,14 +1126,30 @@ section h2 span {
 	}
 	
 	#sidebar{
-		width: 12%;
+		width: 20%;
 		position: fixed;
 		top: 0;
-		right: 4%;
-		background: #fff;
+		right: 0%;
+		background-image: url(../images/background.png);
 		z-index: 8000;
+        min-height: 100%;
 	}
 	
+    #sidebarWrap{
+    }
+
+    #sidebarWrap nav ul *{
+        color:#000000;
+        padding-left: 2%;
+    }
+
+    .border-wrap ul li{
+        padding-right: 50%;
+        padding-left: 3%;
+        border: 4px outset;
+        border-color: #ffffff;
+    }
+
   a#menu{
 		display:none;
 	}	
@@ -1164,6 +1169,7 @@ section h2 span {
 	
 	#sns{
 		margin-top: 50px;
+        margin-left: 5%;
 	}
 	
 	#sns li{
@@ -1419,6 +1425,11 @@ section h2 span {
 .subImg{
 	display: none;
 }
+
+.ml{
+    margin-left: 100px;
+}
+
 @media screen and (max-width:480px) {
 	.topimg{
 		padding-top:19%;
@@ -1455,8 +1466,6 @@ section h2 span {
 	.contenttop{
 	}
 
-
-
 	.topbelow{
 	}
 
@@ -1479,4 +1488,57 @@ section h2 span {
 	body{
 		min-width: 1024px;
 	}
+
+	*{
+		font-size: 10vw;
+	}
+
+	.vw2{
+ 	    font-size: 60px;
+    }
+
+    .economy li, .economy li b{
+    	font-size: 9vw;
+    }
+
+    .comment1 li{
+    	font-size: 6vw;
+    }
+
+
+    .comment1 li b {
+    	font-size: 10vw;
+    }
+
+    .devi{
+    	max-width: 800px;
+    }
+
+    .rct1 div ul li{
+    	font-size: 2vw;
+    }
+
+    .btn-circle-fishy{
+    	width: 500px;
+    	height: 50px;
+    }
+
+    .ml{
+        width: 80%;
+    }
+}
+
+.feed{
+    width: 80%;
+    height: 1200px;
+    margin-left: 10%;
+}
+
+#rufous-sandbox{
+    visibility: visible;
+}
+
+.logo img{
+	margin-left: 5%;
+	width: 90%;
 }

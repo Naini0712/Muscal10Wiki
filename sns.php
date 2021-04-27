@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="description" content="MOD×経済のサーバー！">
 	<meta name="viewport" content="width=device-width">
-	<title>サーバースペック</title>
+	<title>鯖民の動画/ツイート</title>
 	<link rel="stylesheet" media="all" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script src="js/script.js"></script>
@@ -26,8 +26,8 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="icon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+	<script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
 </head>
-
 <body id="top">
 	<div id="wrapper">
 		<div id="sidebar">
@@ -36,7 +36,7 @@
 				<nav id="mainnav">
 					<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
 					<div class="panel">
-<div class="border-wrap">
+						<div class="border-wrap">
 						<ul class="rotateY">
 							<li><a href="index.html">トップ</a></li>
 							<li class="modslist1"><a>導入MOD</a></li>
@@ -61,7 +61,7 @@
 						    <li><a href="join.html">娯楽施設</a></li>
 						    <li><a href="dev.html">開発陣一覧</a></li>
 						    <li><a href="command.html">コマンド一覧</a></li>
-						    <li><a href="money.html">価格表</a></li>
+						    <li><a href="calender.html">予定表</a></li>
 						    <li><a href="spec.html">サーバースペック</a></li>
 							<li><a href="memory.html">記録</a></li>
 						</ul>
@@ -69,7 +69,7 @@
 							<li><a href="rct.html">開発陣募集</a></li>
 							<li><a href="http://muscari.fun:8123/">Dynmap</a></li>
 						</ul>
-						</div>
+					</div>
 <ul id="sns">
 							<li><a href="https://twitter.com/taisa_ism" target="_blank" class="twitter"><img src="images/iconTw.png" width="20" height="20" alt="twitter"></a></li>
 							<li><a href="https://monocraft.net/servers/kypYX49aMGbHh1i47yH5/photos" target="_blank" class="monostagram"><img src="images/iconInsta.png" width="20" height="20" alt="Instagram"></a></li>
@@ -78,15 +78,23 @@
 				</nav>
 			</div>
 		</div>
-        <div id="content">
-		<p id="join" class="join1"><img src="images/rule.png" alt="" class="toppimg"></p>
-        <header class="center"><b><p class="vw2">サーバースペック</p></b></header>
-        <div class="center leftspec">
-        <google-sheets-html-origin></google-sheets-html-origin><table border="1" class="inline"><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;項目&quot;}">項目</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;内容&quot;}">内容</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;RAM&quot;}">RAM</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Team DDR4 3000MHz 32GB&quot;}">Team DDR4 3000MHz 32GB</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;CPU&quot;}">CPU</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Core i7-7700K(4.2GHz)&quot;}">Core i7-7700K(4.2GHz)</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;SSD&quot;}">SSD</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;SDSSDA-240G-J26(240GB)&quot;}">SDSSDA-240G-J26(240GB)</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;電源&quot;}">電源</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;KRPW-GK750W/90+(750w)&quot;}">KRPW-GK750W/90+(750w)</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;CPU Fan&quot;}">CPU Fan</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;虎徹 Mark II&quot;}">虎徹 Mark II</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;マザーボード&quot;}">マザーボード</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;PRIME H270-PRO(LGA1151)&quot;}">PRIME H270-PRO(LGA1151)</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ケース&quot;}">ケース</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Thermaltake Versa H26 Black&quot;}">Thermaltake Versa H26 Black</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;OS&quot;}">OS</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Linux&quot;}">Linux</td></tr></table></div>
-        </div>
-	</div>
-</font>
-<div class="boxbelow">
+		<div id="content">
+			<p id="join" class="join1"><img src="images/calender.png" alt="" class="toppimg"></p>
+		    <header class="center"><b><p class="vw2">鯖民の動画/ツイート</p></b></header>
+		    <blockquote class="twitter-tweet">
+		    	<a href="<?php include('php/twiurl0.php'); ?>"></a>
+		    	<a href="<?php include('php/twiurl1.php'); ?>"></a>
+		    	<a href="<?php include('php/twiurl2.php'); ?>"></a>
+		    	<a href="<?php include('php/twiurl3.php'); ?>"></a>
+		    	<a href="<?php include('php/twiurl4.php'); ?>"></a>
+		    	<a href="<?php include('php/twiurl5.php'); ?>"></a>
+		    	<a href="<?php include('php/twiurl6.php'); ?>"></a>
+		    	<a href="<?php include('php/twiurl7.php'); ?>"></a>
+		    	<a href="<?php include('php/twiurl8.php'); ?>"></a>
+		    	<a href="<?php include('php/twiurl9.php'); ?>"></a>
+		    </blockquote>
+		    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		    <div class="boxbelow">
 	<p class="copyright">© 2020 Muscari Server All Rights Reserved.</p>
 </div>
 </body>
