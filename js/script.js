@@ -27,7 +27,8 @@ $(function(){
 		}
  		return false;
 	});
-	
+
+  if (winW < 880){
 	$('.panel').hide();
 	$('#menuWrap').toggle(function(){
 		$(this).next().slideToggle();
@@ -36,7 +37,7 @@ $(function(){
 	function(){
 		$(this).next().slideToggle();
 		$('#menuBtn').removeClass('close');
-	});
+	})};
 
 });
 
@@ -242,20 +243,22 @@ $(function() {
 
 $(function() {
   $('.modslist1').hover(function() {
-    $('.modslist').css('display', 'block');
+    $('.modslist').slideToggle();
+    $('.modslist').toggleClass("active");
   }, function() {
     setTimeout(function(){
     $('.modslist').css('display', '');
-    },2000);
+    },10000);
   });
 });
 
 $(function() {
   $('.infotab1').hover(function() {
-    $('.infotab').css('display', 'block');
+    $('.infotab').slideToggle();
+    $('.infotab').toggleClass("active");
   }, function() {
     setTimeout(function(){
     $('.infotab').css('display', '');
-    },2000);
+    },10000);
   });
 });
