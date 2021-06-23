@@ -1896,3 +1896,15 @@ section h2 span {
 	margin-left: 25%;
 	margin-right: 25%;
 }
+
+.cmd{
+	font-size: 2vw;
+}
+
+.commandlist{
+	text-align: center;
+	width: 200px;
+	border: 2px solid;
+	border-color: #000000;
+	border-radius: 15px;
+}

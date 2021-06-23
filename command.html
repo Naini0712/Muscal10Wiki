@@ -96,59 +96,476 @@
 			<p id="join" class="join1"><img src="images/top/calender.png" alt="" class="toppimg"><img src="images/top/gr.png" class="gr"></p><div class="content2">
 				<div class="background3">
 			<header class="mmm"><b><p class="vw2">コマンド一覧</p></b></header>
+			<p class="cmd">通常コマンド</p>
 		    <table class="commands" border="1">
 		    	<tr>
-		    		<th>コマンド</th>
+		    		<th width="45%">コマンド</th>
 		    		<th>説明</th>
-		    		<th>金額</th>
+		    		<th width="6%">費用</th>
 		    	</tr>
 		    	<tr>
 		    		<td>/spawn</td>
 		    		<td>メインロビーにスポーンします。</td>
-		    		<th>0</th>
+		    		<td>0</td>
 		    	</tr>
 		    	<tr>
 		    		<td>/sethome</td>
-		    		<td>/homeコマンドで返って来れる地点を設定します。(1箇所のみ。再度設定すると上書きされます。)
-		    		<th>0</th>
+		    		<td>/homeコマンドでテレポートできる地点を設定します。(1箇所のみ。再度設定すると上書きされます。)
+		    		<td>0</td>
 		    	</tr>
 		    	<tr>
 		    		<td>/home</td>
 		    		<td>/sethomeコマンドで設定した地点にテレポートします。</td>
-		    	    <th>0</th>
+		    	    <td>0</td>
 		    	</tr>
 		    	<tr>
 		    		<td>/money</td>
 		    		<td>自分の所持金を表示します。</td>
-		    		<th>0</th>
+		    		<td>0</td>
+		    	</tr>
+		    </table>
+		    <p class="cmd" id="enderpay">Enderpay</p>
+		    <table class="commands" border="1">
+		    	<tr>
+		    		<th width="45%">コマンド</th>
+		    		<th>説明</th>
+		    		<th width="6%">費用</th>
 		    	</tr>
 		    	<tr>
         		<td>/enpay <金額></td>
         		<td>設定用Banknoteを入手します。お金に還元することはできません。</td>
-        		<th>0</th>
+        		<td>0</td>
         	</tr>
         	<tr>
         		<td>/enpay0</td>
         		<td>回収用Banknoteを入手します。お金が入ると3日間の有効期限付きのFilled Banknoteになり、<br>手に持って右クリックでお金に還元することができます。</td>
-        		<th>0</th>
+        		<td>0</td>
         	</tr>
         	<tr>
         		<td>/enpaymenu</td>
         		<td>支払用Banknoteが入手できるGUIを開きます。購入時に10%の手数料が発生します。<br>手に持って右クリックでお金に還元することはできますが、手数料は返金されません。</td>
-        		<th>0</th>
+        		<td>0</td>
         	</tr>
 		    </table>
+		    <p class="cmd" id="towny">Towny</p>
+		    ・一般コマンド
+        <table border=1 class="width100">
+        	<tr>
+        		<th width="45%">コマンド</th>
+        		<th>詳細</th>
+        		<th width="6%">費用</th>
+        	<tr>
+        	<tr>
+        		<td>/nation list <ページ数> <ソート></td>
+        		<td>国のリストを表示します。ソートが指定されない場合は名前でソートされます。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town new <町の名前></td>
+        		<td>新しい町を作成します。</td>
+        		<td>1200</td>
+        	<tr>
+        	<tr>
+        		<td>/town list <ページ数></td>
+        		<td>町のリストを表示します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town plots <町の名前></td>
+        		<td>町が所有する区画の情報を表示します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation join <国の名前></td>
+        		<td>公開している国に参加します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation <国の名前></td>
+        		<td>指定した国の情報を表示します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town join <町の名前></td>
+        		<td>公開している町に参加します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town <町の名前></td>
+        		<td>町の情報を表示します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town here</td>
+        		<td>自分が立っている場所の町の名前を表示します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/invite list</td>
+        		<td>町から受け取った招待のリストを表示します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/invite accept <町の名前></td>
+        		<td>町から受け取った招待を承諾します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/invite deny <町の名前></td>
+        		<td>町から受け取った招待を拒否します。</td>
+        		<td>0</td>
+        	<tr>
+        </table>
+        ・国王限定コマンド
+        <table border=1 class="width100">
+        	<tr>
+        		<th width="45%">コマンド</th>
+        		<th>詳細</th>
+        		<th width="6%">費用</th>
+        	<tr>
+        	<tr>
+        		<td>/nation online</td>
+        		<td>あなたの国のオンラインプレイヤーを表示します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation withdraw <金額></td>
+        		<td>国の銀行からお金を引き出します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation deposit <金額></td>
+        		<td>国の銀行にお金を預け入れます。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation deposit <金額> <町の名前></td>
+        		<td>指定した町の銀行にお金を預け入れます。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation add <町の名前></td>
+        		<td>国に町を招待/追加します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation delete</td>
+        		<td>国を削除します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation invite <町の名前></td>
+        		<td>国に町を招待します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation invite -<町の名前></td>
+        		<td>指定した町への招待を取り消します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation invite sent</td>
+        		<td>送信した招待のリストを表示します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation set king <プレイヤー名></td>
+        		<td>王を他のプレイヤーに譲渡します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation set capital <町の名前></td>
+        		<td>指定した町を国の首都にします。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation set board <メッセージ></td>
+        		<td>国民がログインした時に表示するメッセージを設定します。<br>noneに設定すると無効化されます。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation set tax <金額></td>
+        		<td>国民から徴収する税金を設定します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation set spawn</td>
+        		<td>国のスポーンポイントを設定します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation set spawncost <金額></td>
+        		<td>/nation spawnの利用価格を設定します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation set title <プレイヤー> <プレフィックス></td>
+        		<td>国民にプレフィックスを設定します。　例：大佐 rkcyk706</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation set surname <プレイヤー> <サフィックス></td>
+        		<td>国民にサフィックスを設定します。　例：rkcyk706 大佐</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation set tag <タグ></td>
+        		<td>国のタグを設定します。タグは4文字以内である必要があります。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation set mapcolor <色></td>
+        		<td>dynmapに表示される国の色を設定します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation toggle open</td>
+        		<td>国を公開し、どの町も招待なしで参加できるようにします。</td>
+        		<td>0</td>
+        	<tr>
+        </table>
+        ・町長限定コマンド
+        <table border=1 class="width100">
+        	<tr>
+        		<th width="45%">コマンド</th>
+        		<th>詳細</th>
+        		<th width="6%">費用</th>
+        	<tr>
+        	<tr>
+        		<td>/town online</td>
+        		<td>町のオンラインプレイヤーを表示します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town claim</td>
+        		<td>町の区画を購入します。</td>
+        		<td>800</td>
+        	<tr>
+        	<tr>
+        		<td>/town claim outpost</td>
+        		<td>町の前哨基地区画を購入します。</td>
+        		<td>1200</td>
+        	<tr>
+        	<tr>
+        		<td>/town unclaim</td>
+        		<td>町の区画を放棄します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town withdraw <金額></td>
+        		<td>町の銀行からお金を引き出します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town deposit <金額></td>
+        		<td>町の銀行にお金を預け入れます。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town buy bonus <量></td>
+        		<td>町のボーナスタウンブロックを購入します。</td>
+        		<td>1000※1</td>
+        	<tr>
+        	<tr>
+        		<td>/town delete</td>
+        		<td>町を削除します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town outpost <番号></td>
+        		<td>町の前哨基地にテレポートします。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town outpost <番号></td>
+        		<td>町の前哨基地にテレポートします。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town say <メッセージ></td>
+        		<td>町の住民にメッセージを送ります。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town set board <メッセージ></td>
+        		<td>町民がログインした時に表示するメッセージを設定します。<br>noneに設定すると無効化されます。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town set mayor <プレイヤー></td>
+        		<td>町民に町長の権限を与えます。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town set homeblock</td>
+        		<td>町のホームブロックとスポーンを設定します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town set spawn</td>
+        		<td>町のホーム地点を設定します。ホームブロック内で実行する必要があります。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town set name <名前></td>
+        		<td>町の名前を設定します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town set tag <タグ></td>
+        		<td>町のタグを設定します。タグは4文字以内である必要があります。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town set taxes <金額></td>
+        		<td>町民から毎日徴収する税金を設定します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town set plottax <金額></td>
+        		<td>町民が所有する区画の数に応じて毎日徴収する税金を設定します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town set plotprice <金額></td>
+        		<td>区画の価格を設定します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town set title <プレイヤー> <プレフィックス></td>
+        		<td>町民にプレフィックスを設定します。　例：大佐 rkcyk706</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town set surname <プレイヤー> <サフィックス></td>
+        		<td>町民にサフィックスを設定します。　例：rkcyk706 大佐</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/plot forsale <金額></td>
+        		<td>現在立っている区画を売りに出します。<br>※購入された区画が放棄されると再び0$で売りに出されます。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/plot notforsale <金額></td>
+        		<td>売りに出した区画を非売にします。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/plot evict</td>
+        		<td>区画から区画の所有権を取り除きます。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/plot set embassy</td>
+        		<td>区画を大使館区画に設定します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town set embassyprice <金額></td>
+        		<td>大使館区画の販売料金を設定します。</td>
+        		<td>0</td>
+        	</tr>
+        	<tr>
+        		<td>/plot set arena</td>
+        		<td>区画をアリーナ区画に設定します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/plot set wilds</td>
+        		<td>区画をワイルド区画に設定します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/plot set inn</td>
+        		<td>区画を宿区画に設定します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/plot set outpost</td>
+        		<td>区画を前哨基地区画に設定します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/plot set name</td>
+        		<td>区画の名前を設定します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/plot group add <グループ名></td>
+        		<td>区画をグループ化します。<br>同じグループ名で登録するとそれらの区画はグループになり、購入されたとき同時に購入されます。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation new <国の名前></td>
+        		<td>新しい国を作成します。</td>
+        		<td>3000</td>
+        	<tr>
+        	<tr>
+        		<td>/nation join <国の名前></td>
+        		<td>公開されている国に町を所属させます。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town toggle open</td>
+        		<td>町を公開し、招待なしに町にプレイヤーが参加できるようにします。</td>
+        		<td>0</td>
+        	<tr>
+        </table>
+        ・国民/町民限定コマンド
+        <table border=1 class="width100">
+        	<tr>
+        		<th width="45%">コマンド</th>
+        		<th>詳細</th>
+        		<th width="6%">費用</th>
+        	<tr>
+        	<tr>
+        		<td>/plot claim</td>
+        		<td>現在立っている区画を購入します。</td>
+        		<td>区画の価格</td>
+        	<tr>
+        	<tr>
+        		<td>/plot unclaim</td>
+        		<td>現在立っている自分の区画を放棄します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/nation leave</td>
+        		<td>所属している国から抜けます。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town leave</td>
+        		<td>所属している国から抜けます。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town spawn</td>
+        		<td>所属している町のスポーンにテレポートします。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/town reslist <町の名前></td>
+        		<td>選択した町の住民リストを表示します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/resident list</td>
+        		<td>所属しているプレイヤーのオンラインプレイヤーリストを表示します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/resident tax</td>
+        		<td>町民が支払う税金を表示します。</td>
+        		<td>0</td>
+        	<tr>
+        	<tr>
+        		<td>/resident toggle map</td>
+        		<td>チャットに表示する区画情報の切り替え</td>
+        		<td>0</td>
+        	<tr>
+        </table>
 		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
 <div class="boxbelow bb2">
 	<p class="copyright">© 2020 Muscari Server All Rights Reserved.</p>
 </div>

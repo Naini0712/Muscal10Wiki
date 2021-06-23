@@ -212,24 +212,7 @@
         	<li>各種Banknoteについて</li>
         	<li>各種Banknoteはコマンドで入手することができます。</li>
         </ul>
-        <table border=1 class="width100">
-        	<tr>
-        		<td>コマンド</td>
-        		<td>詳細</td>
-        	</tr>
-        	<tr>
-        		<td>/enpay <金額></td>
-        		<td>設定用Banknoteを入手します。お金に還元することはできません。</td>
-        	</tr>
-        	<tr>
-        		<td>/enpay0</td>
-        		<td>回収用Banknoteを入手します。お金が入ると3日間の有効期限付きのFilled Banknoteになり、<br>手に持って右クリックでお金に還元することができます。</td>
-        	</tr>
-        	<tr>
-        		<td>/enpaymenu</td>
-        		<td>支払用Banknoteが入手できるGUIを開きます。購入時に10%の手数料が発生します。<br>手に持って右クリックでお金に還元することはできますが、手数料は返金されません。</td>
-        	</tr>
-        </table>
+        <a href="command.html#enderpay" target="_blank"><div class="commandlist"><img src="images/cmd.png"><p>使用可能コマンド一覧</p></div></a>
         <br>
         <ul>
         	<li>他プレイヤーのVending Blockはブロック右クリックで購入/売却を行うことができます。</li>
@@ -246,78 +229,55 @@
       </div>
         <br>
       <div class="tborder">
-        <h1 class="midashi" id="towny">Townyの使い方・土地の入手方法</h1>
-        使用可能コマンド一覧
-        ・自分が町長になる場合
-        <table border=1 class="width100">
-        	<tr>
-        		<th>コマンド</th>
-        		<th>詳細</th>
-        	<tr>
-        	<tr>
-        		<td>/town new <町の名前></td>
-        		<td>新しい町を作成します。費用は1200$です。</td>
-        	<tr>
-        	<tr>
-        		<td>/town set board <メッセージ></td>
-        		<td>町民がログインした時に表示するメッセージを設定します。"none"に設定すると無効化されます。</td>
-        	<tr>
-        	<tr>
-        		<td>/town set mayor <プレイヤー></td>
-        		<td>町民に町長の権限を与えます。</td>
-        	<tr>
-        	<tr>
-        		<td>/town set homeblock</td>
-        		<td>町のホームブロックとスポーンを設定します。</td>
-        	<tr>
-        	<tr>
-        		<td>/town set homeblock</td>
-        		<td>町のホームブロックとスポーンを設定します。</td>
-        	<tr>
-        	<tr>
-        		<td>/town set spawn</td>
-        		<td>町のホーム地点を設定します。ホームブロック内で実行する必要があります。</td>
-        	<tr>
-        	<tr>
-        		<td>/town set name <名前></td>
-        		<td>町の名前を設定します。</td>
-        	<tr>
-        	<tr>
-        		<td>/town set tag <タグ></td>
-        		<td>町のタグを設定します。タグは4文字以内である必要があります。</td>
-        	<tr>
-        	<tr>
-        		<td>/town set taxes <金額></td>
-        		<td>町民から毎日徴収する税金を設定します。</td>
-        	<tr>
-        	<tr>
-        		<td>/town set plottax <金額></td>
-        		<td>町民が所有する区画の数に応じて毎日徴収する税金を設定します。</td>
-        	<tr>
-        	<tr>
-        		<td>/town set plotprice <金額></td>
-        		<td>区画の価格を設定します。</td>
-        	<tr>
-        	<tr>
-        		<td>/town set title <プレイヤー> <プレフィックス></td>
-        		<td>町民にプレフィックスを設定します。</td>
-        	<tr>
-        	<tr>
-        		<td>/town set surname <プレイヤー> <サフィックス></td>
-        		<td>町民にサフィックスを設定します。</td>
-        	<tr>
-        </table>
-        ・自分が町民になる場合
-        <table border=1 class="width100">
-        	<tr>
-        		<th>コマンド</th>
-        		<th>詳細</th>
-        	<tr>
-        	<tr>
-        		<td>/town set surname <プレイヤー> <サフィックス></td>
-        		<td>町民にサフィックスを設定します。</td>
-        	<tr>
-        </table>
+        <h1 class="midashi" id="towny" target="_blank">Townyの使い方・土地の入手方法</h1>
+        <a href="command.html#towny"><div class="commandlist"><img src="images/cmd.png"><p>使用可能コマンド一覧</p></div></a>
+        <ul>
+        	<li>Townyの仕組み</li>
+        	<li><img src="images/towny.png"></li>
+        	<li>用語集</li>
+        	<li>・国</li>
+        	<li>町長が複数の町を包括するために作成する町の集合体。作成に3000$必要。</li>
+        	<li>作成費は町の銀行から徴収されるため、コマンドで町の銀行にお金を入れておく必要がある。</li>
+        	<li>町を国に所属させると町の区画の上限に加えて10区画追加される。</li>
+        	<li>1日に国王は維持費として200$支払わなければならない。</li>
+        	<li>維持費が支払われなかった場合は支払われなかった翌日に国が崩壊する。</li>
+        	<li>維持費を補完するために国民から税金を徴収することができる。(高すぎると住民が入ってこないので注意！)</li>
+        	<li><br></li>
+        	<li>・町</li>
+        	<li>区画を販売する役割を持つ。作成に1200$必要。</li>
+        	<li>区画をコマンドで購入し、町に所属していないプレイヤーに土地を販売することができる。</li>
+        	<li>最初の区画は通常800x(1.3x町が所有する区画数)$で購入できる。</li>
+        	<li>1日に町長は維持費として町が所有する区画×5$支払わなければならない。</li>
+        	<li>維持費が支払われなかった場合は支払われなかった翌日に町が崩壊する。</li>
+        	<li>維持費を補完するために町民から税金を徴収することができる。(高すぎると住民が入ってこないので注意！)</li>
+        	<li><br></li>
+        	<li>・区画</li>
+        	<li>16x16x256ブロックで1チャンク分の土地。</li>
+        	<li>町長は町が所有している区画に隣接した区画で/town claimで区画を購入できる。</li>
+        	<li>デフォルトの上限は8。上限を増やす方法は/town buy bonus <量>で買うか、国に所属することで増やすことができる。</li>
+        	<li>区画には属性が5種類ある。</li>
+        	<li>・デフォルト</li>
+        	<li>町長、購入者のみが編集できる区画。</li>
+        	<li>・アリーナ(arena)</li>
+        	<li>基本的な内容はデフォルトと変わらない。ただしPvPが可能。</li>
+        	<li>・大使館(embassy)</li>
+        	<li>他の町の住人が購入・編集できる区画。町長は追加の大使館税を徴収することができる。</li>
+        	<li>プレイヤーが町を抜けた場合、そのプレイヤーが持っていた大使館区画は所有権が失われない。</li>
+        	<li>・ワイルド(wilds)</li>
+        	<li>地形ブロックを除きすべての町民が編集可能な区画。植林場などの用途がある。</li>
+        	<li>・宿(inn)</li>
+        	<li>基本的な内容はデフォルトと変わらない。ただし区画の所有者以外でもベッドを使用できる。</li>
+        	<li>デフォルト、大使館属性の区画のみ町民に販売することができる。</li>
+        	<li><br></li>
+        	<li>・ホームブロック</li>
+        	<li>町が作成された時に町長が立っていた区画。</li>
+        	<li>/town spawnコマンドをした時のテレポート先の区画。</li>
+        	<li>区画を作成する際、前哨基地を除いてホームブロックに隣接した区画を作成する必要がある。</li>
+        	<li><br></li>
+        	<li>・前哨基地</li>
+        	<li>前哨基地は特殊な区画で、ホームブロックから離れた場所に区画を設置できる。</li>
+        	<li>通常の区画と同様、アリーナや大使館等の属性を設定できる。</li>
+        </ul>
       </div>
         <br>
       <div class="tborder">
