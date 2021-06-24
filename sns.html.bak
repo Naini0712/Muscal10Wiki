@@ -2,18 +2,18 @@
 <html lang="ja">
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XNXG282YVT"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LJS2LX8507"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-XNXG282YVT');
+  gtag('config', 'G-LJS2LX8507');
 </script>
 	<meta charset="UTF-8">
 	<meta name="description" content="MOD×経済のサーバー！">
 	<meta name="viewport" content="width=device-width">
-	<title>ムスカリ統計局</title>
+	<title>鯖民の動画</title>
 	<link rel="stylesheet" media="all" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script src="js/script.js"></script>
@@ -35,9 +35,9 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="icon/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
+	<script type="text/javascript" src="https://platform.twitter.com/widgets.js"></script>
 	
 </head>
-
 <body id="top">
 	<div id="wrapper">
 		<div id="sidebar">
@@ -46,7 +46,7 @@
 				<nav id="mainnav">
 					<p id="menuWrap"><a id="menu"><span id="menuBtn"></span></a></p>
 					<div class="panel">
-<div class="border-wrap">
+						<div class="border-wrap">
 						<ul class="rotateY">
 							<li><a href="index.html">トップ</a></li>
 							<li class="modslist1"><a>導入MOD▼</a></li>
@@ -62,12 +62,12 @@
 						<ul>
 							<li><a href="sns.html">鯖民の動画</a></li>
 							<li><a href="join.html">参加方法</a></li>
-							<li><a href="event.html">イベント</a></li>
+							<li><a href="rule.html">ルール</a></li>
 							<li><a href="donate.html">寄付</a></li>
 							<li class="infotab1"><a>情報▼</a></li>
 						</ul>
-						<ul class="infotab"><li><a href="rule.html">ルール </a></li>
-						    <li><a href="tutorial.html">㊙情報</a></li>
+						<ul class="infotab"><li><a href="event.html">イベント</a></li>
+						    <li><a href="tutorial.html">Tips</a></li>
 						    <li><a href="hobby.html">娯楽施設</a></li>
 						    <li><a href="dev.html">開発陣一覧</a></li>
 <li><a href="stats.html">ムスカリ統計局</a></li>
@@ -83,7 +83,7 @@
 <li><a href="link.html">リンク集</a></li>
 							<li><a href="http://muscari.fun:8123/">Dynmap</a></li>
 						</ul>
-						</div>
+					</div>
 <ul id="sns">
 							<li><a href="https://twitter.com/taisa_ism" target="_blank" class="twitter"><img src="images/iconTw.png" width="20" height="20" alt="twitter"></a></li>
 							<li><a href="https://monocraft.net/servers/kypYX49aMGbHh1i47yH5/photos" target="_blank" class="monostagram"><img src="images/iconInsta.png" width="20" height="20" alt="Instagram"></a></li>
@@ -94,30 +94,12 @@
 			</div>
 		</div>
 		<div id="content">
-		<p id="join" class="join1"><img src="images/top/stats.png" alt="" class="toppimg"><img src="images/top/gr.png" class="gr"></p><div class="content2">
-			<a href="#top"><button class="fixed_btn">ページトップへ</button></a>
-			<div class="background3">
-        <header class="mmm" id="top"><b><p class="vw2">ムスカリ統計局</p></b></header>
-        <ul class="mmm">
-        	<li><a href="#ore">・ムスカリウム価格の推移</a></li>
-        	<li><a href="#j">・累計参加人数</a></li>
-        	<li><a href="#ban">・週間BAN者数</a></li>
-        </ul><br>
-        <h1 class="midashi" id="ore">ムスカリウム価格の推移</h1>
-        <p>普通の経済鯖だと、巨額の富を持っている人が既にいたり、インフレが進んで物の価格が不安定になったり。</p>
-        <p>Muscari Serverではそうはならないよう、鉱石価格の調整に尽力します。 by Tomotomo_
-        <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRwO8jxUuvyxB3j42I1Ft_1HCybdOGZBN7qV1Q3Y-K5lkh_ry7bcVm_GBPe-JUz7qAk2sLIjRvft3n/pubchart?oid=1479193238&amp;format=interactive"></iframe>
-        <br>
-        <h1 class="midashi" id="j">累計参加人数</h1>
-        <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRwO8jxUuvyxB3j42I1Ft_1HCybdOGZBN7qV1Q3Y-K5lkh_ry7bcVm_GBPe-JUz7qAk2sLIjRvft3n/pubchart?oid=1222743783&amp;format=interactive"></iframe>
-        <br>
-        <h1 class="midashi" id="ban">週間BAN者数</h1>
-        <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRwO8jxUuvyxB3j42I1Ft_1HCybdOGZBN7qV1Q3Y-K5lkh_ry7bcVm_GBPe-JUz7qAk2sLIjRvft3n/pubchart?oid=37400022&amp;format=interactive"></iframe>
-        </div>
-        </div>
-	</div>
-</font>
-<div class="boxbelow">
+			<p id="join" class="join1"><img src="images/top/calender.png" alt="" class="toppimg"><img src="images/top/gr.png" class="gr"></p><div class="content2">
+				<div class="background3">
+		    <header class="center"><b><p class="vw2">鯖民の動画</p></b></header>
+<p class="center">工事中...</p>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
+		    <div class="boxbelow bb2">
 	<p class="copyright">© 2020 Muscari Server All Rights Reserved.</p>
 </div>
 </body>

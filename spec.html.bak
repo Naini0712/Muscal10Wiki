@@ -2,18 +2,18 @@
 <html lang="ja">
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XNXG282YVT"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LJS2LX8507"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-XNXG282YVT');
+  gtag('config', 'G-LJS2LX8507');
 </script>
 	<meta charset="UTF-8">
 	<meta name="description" content="MOD×経済のサーバー！">
 	<meta name="viewport" content="width=device-width">
-	<title>ムスカリ統計局</title>
+	<title>サーバースペック</title>
 	<link rel="stylesheet" media="all" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script src="js/script.js"></script>
@@ -62,12 +62,12 @@
 						<ul>
 							<li><a href="sns.html">鯖民の動画</a></li>
 							<li><a href="join.html">参加方法</a></li>
-							<li><a href="event.html">イベント</a></li>
+							<li><a href="rule.html">ルール</a></li>
 							<li><a href="donate.html">寄付</a></li>
 							<li class="infotab1"><a>情報▼</a></li>
 						</ul>
-						<ul class="infotab"><li><a href="rule.html">ルール </a></li>
-						    <li><a href="tutorial.html">㊙情報</a></li>
+						<ul class="infotab"><li><a href="event.html">イベント</a></li>
+						    <li><a href="tutorial.html">Tips</a></li>
 						    <li><a href="hobby.html">娯楽施設</a></li>
 						    <li><a href="dev.html">開発陣一覧</a></li>
 <li><a href="stats.html">ムスカリ統計局</a></li>
@@ -93,31 +93,17 @@
 				</nav>
 			</div>
 		</div>
-		<div id="content">
-		<p id="join" class="join1"><img src="images/top/stats.png" alt="" class="toppimg"><img src="images/top/gr.png" class="gr"></p><div class="content2">
-			<a href="#top"><button class="fixed_btn">ページトップへ</button></a>
+        <div id="content">
+		<p id="join" class="join1"><img src="images/top/rule.png" alt="" class="toppimg"><img src="images/top/gr.png" class="gr"></p><div class="content2">
 			<div class="background3">
-        <header class="mmm" id="top"><b><p class="vw2">ムスカリ統計局</p></b></header>
-        <ul class="mmm">
-        	<li><a href="#ore">・ムスカリウム価格の推移</a></li>
-        	<li><a href="#j">・累計参加人数</a></li>
-        	<li><a href="#ban">・週間BAN者数</a></li>
-        </ul><br>
-        <h1 class="midashi" id="ore">ムスカリウム価格の推移</h1>
-        <p>普通の経済鯖だと、巨額の富を持っている人が既にいたり、インフレが進んで物の価格が不安定になったり。</p>
-        <p>Muscari Serverではそうはならないよう、鉱石価格の調整に尽力します。 by Tomotomo_
-        <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRwO8jxUuvyxB3j42I1Ft_1HCybdOGZBN7qV1Q3Y-K5lkh_ry7bcVm_GBPe-JUz7qAk2sLIjRvft3n/pubchart?oid=1479193238&amp;format=interactive"></iframe>
-        <br>
-        <h1 class="midashi" id="j">累計参加人数</h1>
-        <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRwO8jxUuvyxB3j42I1Ft_1HCybdOGZBN7qV1Q3Y-K5lkh_ry7bcVm_GBPe-JUz7qAk2sLIjRvft3n/pubchart?oid=1222743783&amp;format=interactive"></iframe>
-        <br>
-        <h1 class="midashi" id="ban">週間BAN者数</h1>
-        <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRwO8jxUuvyxB3j42I1Ft_1HCybdOGZBN7qV1Q3Y-K5lkh_ry7bcVm_GBPe-JUz7qAk2sLIjRvft3n/pubchart?oid=37400022&amp;format=interactive"></iframe>
+        <header class="mmm"><b><p class="vw2">サーバースペック</p></b></header>
+        <div class="commands">
+        <google-sheets-html-origin></google-sheets-html-origin><table border="1" class="inline"><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;項目&quot;}">項目</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;内容&quot;}">内容</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;RAM&quot;}">RAM</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Team DDR4 3000MHz 32GB&quot;}">Team DDR4 3000MHz 32GB</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;CPU&quot;}">CPU</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Core i7-7700K(4.2GHz)&quot;}">Core i7-7700K(4.2GHz)</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;SSD&quot;}">SSD</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;SDSSDA-240G-J26(240GB)&quot;}">SDSSDA-240G-J26(240GB)</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;電源&quot;}">電源</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;KRPW-GK750W/90+(750w)&quot;}">KRPW-GK750W/90+(750w)</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;CPU Fan&quot;}">CPU Fan</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;虎徹 Mark II&quot;}">虎徹 Mark II</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;マザーボード&quot;}">マザーボード</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;PRIME H270-PRO(LGA1151)&quot;}">PRIME H270-PRO(LGA1151)</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ケース&quot;}">ケース</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Thermaltake Versa H26 Black&quot;}">Thermaltake Versa H26 Black</td></tr><tr><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;OS&quot;}">OS</td><td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Linux&quot;}">Linux</td></tr></table></div>
         </div>
-        </div>
+        <br><br><br><br><br><br>
 	</div>
 </font>
-<div class="boxbelow">
+<div class="boxbelow bb2">
 	<p class="copyright">© 2020 Muscari Server All Rights Reserved.</p>
 </div>
 </body>

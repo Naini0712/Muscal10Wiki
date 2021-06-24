@@ -2,18 +2,18 @@
 <html lang="ja">
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XNXG282YVT"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LJS2LX8507"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-XNXG282YVT');
+  gtag('config', 'G-LJS2LX8507');
 </script>
 	<meta charset="UTF-8">
 	<meta name="description" content="MOD×経済のサーバー！">
 	<meta name="viewport" content="width=device-width">
-	<title>ムスカリ統計局</title>
+	<title>ムスカリサーバー</title>
 	<link rel="stylesheet" media="all" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script src="js/script.js"></script>
@@ -37,7 +37,6 @@
 	<meta name="theme-color" content="#ffffff">
 	
 </head>
-
 <body id="top">
 	<div id="wrapper">
 		<div id="sidebar">
@@ -62,12 +61,12 @@
 						<ul>
 							<li><a href="sns.html">鯖民の動画</a></li>
 							<li><a href="join.html">参加方法</a></li>
-							<li><a href="event.html">イベント</a></li>
+							<li><a href="rule.html">ルール</a></li>
 							<li><a href="donate.html">寄付</a></li>
 							<li class="infotab1"><a>情報▼</a></li>
 						</ul>
-						<ul class="infotab"><li><a href="rule.html">ルール </a></li>
-						    <li><a href="tutorial.html">㊙情報</a></li>
+						<ul class="infotab"><li><a href="event.html">イベント</a></li>
+						    <li><a href="tutorial.html">Tips</a></li>
 						    <li><a href="hobby.html">娯楽施設</a></li>
 						    <li><a href="dev.html">開発陣一覧</a></li>
 <li><a href="stats.html">ムスカリ統計局</a></li>
@@ -94,31 +93,110 @@
 			</div>
 		</div>
 		<div id="content">
-		<p id="join" class="join1"><img src="images/top/stats.png" alt="" class="toppimg"><img src="images/top/gr.png" class="gr"></p><div class="content2">
-			<a href="#top"><button class="fixed_btn">ページトップへ</button></a>
-			<div class="background3">
-        <header class="mmm" id="top"><b><p class="vw2">ムスカリ統計局</p></b></header>
-        <ul class="mmm">
-        	<li><a href="#ore">・ムスカリウム価格の推移</a></li>
-        	<li><a href="#j">・累計参加人数</a></li>
-        	<li><a href="#ban">・週間BAN者数</a></li>
-        </ul><br>
-        <h1 class="midashi" id="ore">ムスカリウム価格の推移</h1>
-        <p>普通の経済鯖だと、巨額の富を持っている人が既にいたり、インフレが進んで物の価格が不安定になったり。</p>
-        <p>Muscari Serverではそうはならないよう、鉱石価格の調整に尽力します。 by Tomotomo_
-        <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRwO8jxUuvyxB3j42I1Ft_1HCybdOGZBN7qV1Q3Y-K5lkh_ry7bcVm_GBPe-JUz7qAk2sLIjRvft3n/pubchart?oid=1479193238&amp;format=interactive"></iframe>
-        <br>
-        <h1 class="midashi" id="j">累計参加人数</h1>
-        <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRwO8jxUuvyxB3j42I1Ft_1HCybdOGZBN7qV1Q3Y-K5lkh_ry7bcVm_GBPe-JUz7qAk2sLIjRvft3n/pubchart?oid=1222743783&amp;format=interactive"></iframe>
-        <br>
-        <h1 class="midashi" id="ban">週間BAN者数</h1>
-        <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRwO8jxUuvyxB3j42I1Ft_1HCybdOGZBN7qV1Q3Y-K5lkh_ry7bcVm_GBPe-JUz7qAk2sLIjRvft3n/pubchart?oid=37400022&amp;format=interactive"></iframe>
+			<div class="center1">
+			<div class="subImg">
+				<img src="images/mainImg.png">
+				<img src="images/logo.png"><br>
+				<a href="join.html"><img src="images/jooin.png" width="300"></a>
+			</div>
+			<div class="mainImg">
+			<div class="main">
+			<div class="box">
+			<div class="title1">ム　ス　カ　リ　サ　ー　バ　ー</div>
+			<div class="title2"><p class="title2a">MUSCARI SERVER</p><p class="title2b">|Modded Minecraft Server|</p></div>
+            <a href="join.html" class="border">今すぐ参加！</a>
+			</div>
+		    </div>
+		    </div>
+			<div class=contenttop>
+			<header class="center">
+			<b><p class="vw2"></p></b>
+			</header>
+			<div class="link2">
+				<div>
+				<a href="join.html" target="_blank">
+					<img src="images/coin.png">
+        		  <ul>
+        			  <li>大規模mod鯖<br>　　　×<br>経済プラグインは国内初！<br>ここでしか遊べない！</li>
+        		  </ul>
+        	</a>
         </div>
+        <div>
+				<a href="stats.html#ban" target="_blank">
+					<img src="images/mindo.png">
+        		  <ul>
+        			  <li>圧　倒　的　民　度<br>荒らしの心配は御無用！</li>
+        		  </ul>
+        	</a>
         </div>
+        <div>
+				<a href="stats.html#ore" target="_blank">
+					<img src="images/gra.jpeg">
+        		  <ul>
+        			  <li>独自システムによる<br>インフレ防止策</li>
+        		  </ul>
+        	</a>
+        </div>
+        <div>
+				<a href="tutorial.html#skill" target="_blank">
+					<img src="images/skill.png">
+        		  <ul>
+        			  <li>プレイヤー間取引重視！<br>後入りでもトップを狙え！</li>
+        		  </ul>
+        	</a>
+        </div>
+        <div>
+				<a href="hobby.html" target="_blank">
+					<img src="images/csi.png">
+        		  <ul>
+        			  <li>アスレ<br>カジノなど<br>娯楽要素も充実</li>
+        		  </ul>
+        	</a>
+        </div>
+        <div>
+				<a href="tutorial.html#cs" target="_blank">
+					<img src="images/hs.png">
+        		  <ul>
+        			  <li>取引を通して<br>みんながmodで遊べる</li>
+        		  </ul>
+        	</a>
+        </div>
+        <div>
+				<a href="tutorial.html#quest" target="_blank">
+					<img src="images/rann.png">
+        		  <ul>
+        			  <li>クエスト達成で<br>鯖民と差をつけろ</li>
+        		  </ul>
+        	</a>
+        </div>
+        <div>
+				<a href="event.html" target="_blank">
+					<img src="images/event.jpg">
+        		  <ul>
+        			  <li>イベントが<br>盛りだくさん</li>
+        		  </ul>
+        	</a>
+        </div>
+        <div>
+				<a href="tutorial.html#skill" target="_blank">
+					<img src="images/twilight.png">
+        		  <ul>
+        			  <li>充実した<br>探索要素</li>
+        		  </ul>
+        	</a>
+        </div>
+       </div>
+			<br>
+			<section id="sec01">
+            <img src="images/economy.png" width="50%" alt="">
+			</section>
+			<div class="taisa_ism"><a class="twitter-timeline" href="https://twitter.com/taisa_ism?ref_src=twsrc%5Etfw">Tweets by taisa_ism</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
+		</div>
 	</div>
-</font>
-<div class="boxbelow">
-	<p class="copyright">© 2020 Muscari Server All Rights Reserved.</p>
-</div>
+		</div>
+	</div>
+			<div class="boxbelow topbelow">
+			<p class="copyright">© 2020 Muscari Server All Rights Reserved.</p>
+			</div>
 </body>
 </html>

@@ -2,13 +2,13 @@
 <html lang="ja">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XNXG282YVT"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LJS2LX8507"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-XNXG282YVT');
+  gtag('config', 'G-LJS2LX8507');
 </script>
 	<meta charset="UTF-8">
 	<meta name="description" content="MOD×経済のサーバー！">
@@ -61,12 +61,12 @@
                         <ul>
                             <li><a href="sns.html">鯖民の動画</a></li>
                             <li><a href="join.html">参加方法</a></li>
-                            <li><a href="event.html">イベント</a></li>
+                            <li><a href="rule.html">ルール</a></li>
                             <li><a href="donate.html">寄付</a></li>
                             <li class="infotab1"><a>情報▼</a></li>
                         </ul>
-                        <ul class="infotab"><li><a href="rule.html">ルール </a></li>
-                            <li><a href="tutorial.html">㊙情報</a></li>
+                        <ul class="infotab"><li><a href="event.html">イベント</a></li>
+                            <li><a href="tutorial.html">Tips</a></li>
                             <li><a href="hobby.html">娯楽施設</a></li>
                             <li><a href="dev.html">開発陣一覧</a></li>
 <li><a href="stats.html">ムスカリ統計局</a></li>

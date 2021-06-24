@@ -2,18 +2,18 @@
 <html lang="ja">
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XNXG282YVT"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LJS2LX8507"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-XNXG282YVT');
+  gtag('config', 'G-LJS2LX8507');
 </script>
 	<meta charset="UTF-8">
 	<meta name="description" content="MOD×経済のサーバー！">
 	<meta name="viewport" content="width=device-width">
-	<title>㊙情報</title>
+	<title>Tips</title>
 	<link rel="stylesheet" media="all" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script src="js/script.js"></script>
@@ -62,12 +62,12 @@
 						<ul>
 							<li><a href="sns.html">鯖民の動画</a></li>
 							<li><a href="join.html">参加方法</a></li>
-							<li><a href="event.html">イベント</a></li>
+							<li><a href="rule.html">ルール</a></li>
 							<li><a href="donate.html">寄付</a></li>
 							<li class="infotab1"><a>情報▼</a></li>
 						</ul>
-						<ul class="infotab"><li><a href="rule.html">ルール </a></li>
-						    <li><a href="tutorial.html">㊙情報</a></li>
+						<ul class="infotab"><li><a href="event.html">イベント</a></li>
+						    <li><a href="tutorial.html">Tips</a></li>
 						    <li><a href="hobby.html">娯楽施設</a></li>
 						    <li><a href="dev.html">開発陣一覧</a></li>
 <li><a href="stats.html">ムスカリ統計局</a></li>
@@ -97,7 +97,7 @@
 		<p id="join" class="join1"><img src="images/top/tutorial.png" alt="" class="toppimg"><img src="images/top/gr.png" class="gr"></p><div class="content2">
 			<a href="#top"><button class="fixed_btn">ページトップへ</button></a>
 			<div class="background3">
-        <header class="mmm" id="top"><b><p class="vw2">㊙情報</p></b></header>
+        <header class="mmm" id="top"><b><p class="vw2">Tips</p></b></header>
         <ul class="mmm">
         	<li><a href="#jvm">・JVM最適化による軽量化</a></li>
         	<li><a href="#money">・お金の集め方</a></li>
@@ -232,28 +232,8 @@
         <h1 class="midashi" id="towny" target="_blank">Townyの使い方・土地の入手方法</h1>
         <a href="command.html#towny"><div class="commandlist"><img src="images/cmd.png"><p>使用可能コマンド一覧</p></div></a>
         <ul>
-        	<li>Townyチュートリアル</li>
+        	<li>Townyの仕組み</li>
         	<li><img src="images/towny.png"></li>
-        	<li>・土地の入手のみを目的とする場合</li>
-        	<li>1.町長とのツテが無い場合は/town list <ページ数> by openや /town list <町の名前> を駆使して住みたい町を決める。</li>
-        	<li>2./town join <町の名前>で町に参加する。</li>
-        	<li>3./plot claim で土地を購入する。</li>
-        	<li><br></li>
-        	<li>・自分が町長になって区画の管理をする場合</li>
-        	<li>1./town new <町の名前> で町を作成する。</li>
-        	<li>2./town deposit <金額> で町の銀行にお金を入れる。(維持費や区画の購入に用いるため)</li>
-        	<li>3./town claim で区画を購入する。</li>
-        	<li>4.区画を他プレイヤーに販売したい場合は/town forsale <金額> で区画を販売する。</li>
-        	<li>5.必要に応じて町民から徴収する税金の税率を設定する。</li>
-        	<li>6.必要に応じて各種設定をする。</li>
-        	<li><br></li>
-        	<li>・自分が国王になって区画の管理をする場合</li>
-        	<li>1.町の町長になる。</li>
-        	<li>2./nation new <国の名前> で国を作成する。</li>
-        	<li>3./nation deposit <金額> で国の銀行にお金を入れる。(維持費に用いるため)</li>
-        	<li>4.必要に応じて国民から徴収する税金の税率を設定する。</li>
-        	<li>5.必要に応じて各種設定をする。</li>
-        	<li><br></li>
         	<li>用語集</li>
         	<li>・国</li>
         	<li>町長が複数の町を包括するために作成する町の集合体。作成に3000$必要。</li>

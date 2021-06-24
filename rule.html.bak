@@ -2,18 +2,18 @@
 <html lang="ja">
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XNXG282YVT"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LJS2LX8507"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-XNXG282YVT');
+  gtag('config', 'G-LJS2LX8507');
 </script>
 	<meta charset="UTF-8">
 	<meta name="description" content="MOD×経済のサーバー！">
 	<meta name="viewport" content="width=device-width">
-	<title>ムスカリ統計局</title>
+	<title>ルール</title>
 	<link rel="stylesheet" media="all" href="css/style.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 	<script src="js/script.js"></script>
@@ -62,12 +62,12 @@
 						<ul>
 							<li><a href="sns.html">鯖民の動画</a></li>
 							<li><a href="join.html">参加方法</a></li>
-							<li><a href="event.html">イベント</a></li>
+							<li><a href="rule.html">ルール</a></li>
 							<li><a href="donate.html">寄付</a></li>
 							<li class="infotab1"><a>情報▼</a></li>
 						</ul>
-						<ul class="infotab"><li><a href="rule.html">ルール </a></li>
-						    <li><a href="tutorial.html">㊙情報</a></li>
+						<ul class="infotab"><li><a href="event.html">イベント</a></li>
+						    <li><a href="tutorial.html">Tips</a></li>
 						    <li><a href="hobby.html">娯楽施設</a></li>
 						    <li><a href="dev.html">開発陣一覧</a></li>
 <li><a href="stats.html">ムスカリ統計局</a></li>
@@ -94,29 +94,53 @@
 			</div>
 		</div>
 		<div id="content">
-		<p id="join" class="join1"><img src="images/top/stats.png" alt="" class="toppimg"><img src="images/top/gr.png" class="gr"></p><div class="content2">
-			<a href="#top"><button class="fixed_btn">ページトップへ</button></a>
-			<div class="background3">
-        <header class="mmm" id="top"><b><p class="vw2">ムスカリ統計局</p></b></header>
-        <ul class="mmm">
-        	<li><a href="#ore">・ムスカリウム価格の推移</a></li>
-        	<li><a href="#j">・累計参加人数</a></li>
-        	<li><a href="#ban">・週間BAN者数</a></li>
-        </ul><br>
-        <h1 class="midashi" id="ore">ムスカリウム価格の推移</h1>
-        <p>普通の経済鯖だと、巨額の富を持っている人が既にいたり、インフレが進んで物の価格が不安定になったり。</p>
-        <p>Muscari Serverではそうはならないよう、鉱石価格の調整に尽力します。 by Tomotomo_
-        <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRwO8jxUuvyxB3j42I1Ft_1HCybdOGZBN7qV1Q3Y-K5lkh_ry7bcVm_GBPe-JUz7qAk2sLIjRvft3n/pubchart?oid=1479193238&amp;format=interactive"></iframe>
+		<p id="join" class="join1"><img src="images/top/rule.png" alt="" class="toppimg"><img src="images/top/gr.png" class="gr"></p><div class="content2">
+		<div class="background3">
+        <header><b><p class="vw2">ルール</p></b></header>
+        <div class="ruleborder">
+        <p><font size="8">第０条(推奨事項)</font></p>
+        <ul>
+        	<li>・初参加時＆参加/退出時の<b>挨拶</b></li>
+        	<li>・バグを発見した際のDiscordの<b>意見・質問・不具合</b>チャンネルへの報告</li>
+        </ul>
         <br>
-        <h1 class="midashi" id="j">累計参加人数</h1>
-        <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRwO8jxUuvyxB3j42I1Ft_1HCybdOGZBN7qV1Q3Y-K5lkh_ry7bcVm_GBPe-JUz7qAk2sLIjRvft3n/pubchart?oid=1222743783&amp;format=interactive"></iframe>
+        <p><font size="8">第１条(禁止事項)</font></p>
+        <p>第１項(快適に過ごすために)</p>
+        <ul>
+        	<li>・<b>故意に</b>サーバーに負荷をかける行為</li>
+        	<li>・チャット等での<b>非道徳的な発言、誹謗中傷</b></li>
+        	<li>・<b>卑猥・差別要素</b>を含むスキンの使用、建築</li>
+        	<li>・<b>チャットスパム(連続投稿)</b></li>
+        	<li>・<b>過剰な宣伝</b>
+        	<li>・他人の所有物の<b>窃盗・破壊</b></li>
+        	<li>・他者を騙してアイテムやお金を奪い取る<b>詐欺行為</b></li>
+        </ul>
         <br>
-        <h1 class="midashi" id="ban">週間BAN者数</h1>
-        <iframe width="600" height="371" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTRwO8jxUuvyxB3j42I1Ft_1HCybdOGZBN7qV1Q3Y-K5lkh_ry7bcVm_GBPe-JUz7qAk2sLIjRvft3n/pubchart?oid=37400022&amp;format=interactive"></iframe>
-        </div>
-        </div>
+        <p>第２項(ゲームバランスの維持)</p>
+        <ul>
+        	<li>・スキルを<b>不正に</b>獲得・使用する行為※1</li>
+        	<li>・<b>取引が禁止されているアイテム</b>の取引、譲渡、受け取りをする行為</li>
+        	<li>・<b>複数人</b>でのアイテムの優遇する行為(特定の人物に対して大幅な値下げまたは譲渡する等)
+        	<li>・<b>故意による</b>バグ、不具合の利用の禁止</li>
+        	<li>・<b>連打・マクロ系ツール、それに準ずるmod</b>の使用</li>
+        	<li>・<b>放置</b>を助長させるような機構を作成しようとする行為</li>
+        	<li>・<a href="bug.html">既知のバグ</a>を発生させようとする行為</li>
+        	<li>・MuscariServerModpack及びFruitLauncherで推奨されているもの<b>以外の</b>MODの導入<font size="2">※2</font></li>
+        	<li>・<b>複数アカウント</b>の使用</li>
+        	<font size="2">※1<font size="3"> Orb of Skillsの取引、複数アカウントの使用による擬似的な複数スキル獲得　など</font></font><br>
+        	<font size="2">※1<font size="3"> 不正なスキルの獲得はコマンドで確認が可能です。</font></font><br>
+        	<font size="2">※2<font size="3"> Discordで運営にかけあうことで許可が降りる場合もあります</font></font>
+        </ul>
+        <br>
+        <p><font size="6">4.補填について</font></p>
+        <ul>
+        	<li>・プレイヤーの過失、窃盗・破壊による補填は一切行いません</li>
+        	<li>・Modのバグ等によるアイテムの紛失があった場合は補填を行います</li>
+        </ul>
+    </div>
 	</div>
-</font>
+</div>
+	</font>
 <div class="boxbelow">
 	<p class="copyright">© 2020 Muscari Server All Rights Reserved.</p>
 </div>
