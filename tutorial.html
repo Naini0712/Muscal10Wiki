@@ -115,11 +115,10 @@
         <div class="tborder">
         <h1 class="midashi" id="jvm">JVM最適化による軽量化</h1>
         <ul>
-        	<li>1.FruitLauncherのホームから「設定」を開く。(赤で囲んだマーク)</li>
-        	<li><img src="images/fl.png"></li>
+        	<li>1.GDLauncherのホームから設定を開く。(赤で囲んだマーク)</li>
+        	<li><img src="images/GD5.png"></li>
         	<li>2.JVM引数の入力欄(赤で囲んだところ)に以下の引数を入力する。(コピペして使ってね)</li>
         	<li class="bgg">-server -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:SurvivorRatio=4 -XX:TargetSurvivorRatio=80 -XX:NewRatio=3 -Xss64M -XX:ParallelGCThreads=2 -XX:ConcGCThreads=2 -XX:ReservedCodeCacheSize=128M -XX:CompressedClassSpaceSize=128M -XX:MinHeapFreeRatio=20 -XX:MaxHeapFreeRatio=70 -XX:CICompilerCount=4 -XX:InlineSmallCode=8K -XX:MaxInlineSize=128 -XX:MaxTrivialSize=32 -XX:InitialTenuringThreshold=10 -XX:MaxTenuringThreshold=15 -XX:CompileThreshold=500 -XX:CMSInitiatingOccupancyFraction=80 -XX:+UseCMSInitiatingOccupancyOnly -XX:+CMSScavengeBeforeRemark -XX:+ParallelRefProcEnabled -XX:+AggressiveOpts -XX:+OptimizeStringConcat -XX:+UseFastAccessorMethods -XX:+CMSScavengeBeforeRemark -XX:+CMSClassUnloadingEnabled -XX:+DisableExplicitGC -XX:-UseGCOverheadLimit -XX:+UseCompressedOops -XX:+UseCodeCacheFlushing -XX:MaxGCPauseMillis=10 -XX:UseSSE=4 -XX:UseAVX=2 -Duser.language=en -Duser.country=US -Djline.terminal=jline.UnsupportedTerminal
-        	<li><img src="images/jvm.png"></li>
         	<li>3.最大メモリを指定する。</li>
         	<table border=1 class="RAM">
         		<tr>
@@ -139,6 +138,7 @@
         			<td>お使いのPCと相談</td>
         		</tr>
         	</table>
+        	<li><img src="images/GD6.png"></li>
         </ul>
       </div>
         <br>
@@ -335,10 +335,12 @@
         <li>スキルツリーの開放にはOrb of Skills(スキルのオーブ)というアイテムとプレイ時間が必要です。</li>
         <li>Orb of Skillsの必要個数や必要プレイ時間などは下の画像を参照してください。</li>
         <li>Orb of Skillsは投票で貰えるVoting Reward(投票報酬)をFTBQuestsの「投票」で引き換えることができます。</li>
+        <li>スキルを開放しても、資源ワールドや攻略ワールドでは開放されていない場合があります。その場合は、/gsと入力して下さい。</li>
         <li><img src="images/skill.png"></li>
         <li>　※注意事項</li>
         <li>　・取得できるスキルはTierにつき1個(合計3個)です。</li>
         <li>　・取得できなかったスキルは二度と取得できません。</li>
+        <li>　・Tier3スキルを取得するとMuscariumが採掘不可能になります。</li>
       </ul>
     </div>
         <br>
